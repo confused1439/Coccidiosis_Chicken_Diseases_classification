@@ -1,2 +1,4 @@
 # remove the template.py from being push
 template.py
+requirements.txt
+.gitignore
