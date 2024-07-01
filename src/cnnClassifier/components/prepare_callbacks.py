@@ -1,9 +1,9 @@
 import os, urllib.request as request, tensorflow as tf, time
 from zipfile import ZipFile
-from cnnClassifier.config.configuration import PrepareCallbackConfig
+from cnnClassifier.config.configuration import PrepareCallbacksConfig
 
 class PrepareCallback:
-    def __init__(self, config: PrepareCallbackConfig):
+    def __init__(self, config: PrepareCallbacksConfig):
         self.config = config
 
     @property
