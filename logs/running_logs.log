@@ -464,3 +464,85 @@ x================x]
 [2024-07-02 11:16:55,184: INFO: stage_04_evaluation: >>>>>> stage Evaluation completed <<<<<<
 
 x================x]
+[2024-07-02 12:09:21,824: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.98.192:8080]
+[2024-07-02 12:09:21,824: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-02 12:09:29,570: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:09:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:09:29,582: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:09:29] "GET / HTTP/1.1" 200 -]
+[2024-07-02 12:09:29,735: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:09:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:09:29,746: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:09:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:11:51,200: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-02 12:11:51,750: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:11:51] "POST /predict HTTP/1.1" 200 -]
+[2024-07-02 12:12:01,001: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-02 12:12:01,367: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:12:01] "POST /predict HTTP/1.1" 200 -]
+[2024-07-02 12:13:24,581: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-02 12:13:24,946: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:13:24] "POST /predict HTTP/1.1" 200 -]
+[2024-07-02 12:13:50,146: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:13:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:13:50,146: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:13:50] "GET / HTTP/1.1" 200 -]
+[2024-07-02 12:13:50,146: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:13:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:13:50,221: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:13:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:13:54,910: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:13:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:13:54,916: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:13:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:00,436: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:00] "GET /train HTTP/1.1" 200 -]
+[2024-07-02 12:14:00,498: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:30,798: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:30,802: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:30,805: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:30] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-07-02 12:14:38,295: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:38,298: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:38,302: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:38] "GET / HTTP/1.1" 200 -]
+[2024-07-02 12:14:38,383: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:40,327: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-02 12:14:40,393: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\OneDrive\Documents\Data Science\Coccidiosis_Chicken_Diseases_classification\app.py", line 34, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\onedrive\documents\data science\coccidiosis_chicken_diseases_classification\src\cnnClassifier\pipeline\predict.py", line 14, in predict
+    test_image = image.load_img(imagename, target_size=(224, 224))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001EC4DEED030>
+[2024-07-02 12:14:40,411: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-07-02 12:14:46,619: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:46,619: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:47,896: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:47,899: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:47,938: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:14:53,110: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-02 12:14:53,492: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:14:53] "POST /predict HTTP/1.1" 200 -]
+[2024-07-02 12:15:01,526: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-02 12:15:01,876: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001EC53D19800> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-07-02 12:15:01,876: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:01] "POST /predict HTTP/1.1" 200 -]
+[2024-07-02 12:15:55,740: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:15:55,745: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:55] "GET / HTTP/1.1" 200 -]
+[2024-07-02 12:15:55,753: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:15:55,869: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:15:57,252: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:15:57,266: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:15:57,283: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:57] "GET / HTTP/1.1" 200 -]
+[2024-07-02 12:15:57,394: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
