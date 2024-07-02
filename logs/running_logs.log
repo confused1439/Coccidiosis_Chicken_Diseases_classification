@@ -546,3 +546,16 @@ PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x
 [2024-07-02 12:15:57,266: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
 [2024-07-02 12:15:57,283: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:57] "GET / HTTP/1.1" 200 -]
 [2024-07-02 12:15:57,394: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:15:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:16:11,219: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.98.192:8080]
+[2024-07-02 12:16:11,219: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-02 12:16:14,786: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:16:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:16:14,796: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:16:14] "GET / HTTP/1.1" 200 -]
+[2024-07-02 12:16:14,797: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:16:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:16:14,930: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:16:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-02 12:16:21,109: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-02 12:16:21,474: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:16:21] "POST /predict HTTP/1.1" 200 -]
+[2024-07-02 12:16:27,013: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-02 12:16:27,355: INFO: _internal: 127.0.0.1 - - [02/Jul/2024 12:16:27] "POST /predict HTTP/1.1" 200 -]
