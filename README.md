@@ -1,5 +1,19 @@
 # Coccidiosis_Chicken_Diseases_classification
 
+#### Start with installing all the requirements:
+```python
+pip install -r requirements.txt
+```
+#### Initialize DVC environment(make sure that you have git initialized already in current working directory before this step!)
+```powershell
+dvc init
+```
+#### DVC reproduce to checks the pipeline stages defined in your DVC files
+```powershell
+dvc repro
+```
+#### Finally run the `app.py` in your terminal
+
 ## Workflows
 
 1. Update config.yaml
